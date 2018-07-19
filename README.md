@@ -12,13 +12,16 @@
 
 <h4>2.CSS scss命名</h4>
 
-BEM规范 块block、元素element、修饰符modifier 使用 block__element--modifier连接<br>
+BEM规范 块block、元素element、修饰符modifier 使用 block__element--modifier连接
 	
-	css <br>
-	.block{} <br>
-	.block__element{} <br>
-	.block__element--modifier{}<br>
-	scss<br> 
+	css
+	
+	.block{}
+	.block__element{} 
+	.block__element--modifier{}
+	
+	scss
+	
 	.block{
 		&__element{
 			&--modifier{
@@ -29,13 +32,13 @@ BEM规范 块block、元素element、修饰符modifier 使用 block__element--mo
 
 <h4>3.js文件命名</h4>
 
-小写方式 以下划线分隔 <br>
+	小写方式 以下划线分隔
+	sider_nav.js
+	
+	类js文件首字母大写
+	User.js
 
-	sider_nav.js<br>
-	类js文件首字母大写<br>
-	User.js<br>
-
-	【复数命名】 charts.js charts.css <br>
+	【复数命名】 charts.js charts.css
 
 # 规范
 
@@ -50,6 +53,7 @@ IE compatibility mode 最好是设置为 edge mode <meta http-equiv="X-UA-Compat
 字符编码 <meta charset="UTF-8"><br>
 	
 引入 CSS 和 JavaScript <br>
+
 	<link rel="stylesheet" href="common.css">
 	<style>
 	    /* ... */
@@ -58,16 +62,16 @@ IE compatibility mode 最好是设置为 edge mode <meta http-equiv="X-UA-Compat
 
 html属性顺序<br>
 
-	class<br>
-	id<br>
-	name<br>
-	data-*<br>
-	src, for, type, href, value<br>
-	placeholder, title, alt<br>
-	 role<br>
-	required, readonly, disabled<br>
-	例如<br>
-	<a id="" class="" data-modal="" href="#">link</a><br>
+	class
+	id
+	name
+	data-*
+	src, for, type, href, value
+	placeholder, title, alt
+	role
+	required, readonly, disabled
+	例如
+	<a id="" class="" data-modal="" href="#">link</a>
 
 尽量减少标签数量 例如<br>
 	
@@ -106,10 +110,10 @@ html属性顺序<br>
 
 相关的属性声明应该以下面的顺序分组处理<br>
 
-	Positioning //position top right bottom left z-index<br>
-	Box model 盒模型 //display float width height margin padding<br>
-	Typographic 排版 // font line-height text-align<br>
-	Visual 外观 //color background-color border border-radius box-shadow<br>
+	Positioning //position top right bottom left z-index
+	Box model 盒模型 //display float width height margin padding
+	Typographic 排版 // font line-height text-align
+	Visual 外观 //color background-color border border-radius box-shadow
 
  
  
