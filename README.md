@@ -1,4 +1,5 @@
 #项目命名
+
 小写方式， 以下划线分隔 
 big_data_analysis_platform 大数据分析平台
 
@@ -30,6 +31,7 @@ User.js
 【复数命名】 charts.js charts.css 
 
 #规范
+
 1.HTML
 页面开头使用这个简单地 doctype 来启用标准模式，使其每个浏览器中尽可能一致的展现 <!DOCTYPE html>
 
