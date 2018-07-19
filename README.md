@@ -94,34 +94,35 @@ Box model 盒模型 //display float width height margin padding<br>
 Typographic 排版 // font line-height text-align<br>
 Visual 外观 //color background-color border border-radius box-shadow<br>
 
- Misc //opcity<br>
- 	/* 1 */
+ 
+ 
+    /* Misc //opcity */
 	.info-panel {
-    /* Positioning */
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 101;
+	    /* Positioning */
+	    position: absolute;
+	    top: 0;
+	    right: 0;
+	    bottom: 0;
+	    left: 0;
+	    z-index: 101;
 
-    /* Box-model */
-    display: block;
-    float: left;
-    width: 200px;
-    height: 200px;
+	    /* Box-model */
+	    display: block;
+	    float: left;
+	    width: 200px;
+	    height: 200px;
 
-    /* Typography */
-    font: normal 14px "Helvetica Neue", sans-serif;
-    line-height: 1.5;
-    color: #333;
-    text-align: center;
+	    /* Typography */
+	    font: normal 14px "Helvetica Neue", sans-serif;
+	    line-height: 1.5;
+	    color: #333;
+	    text-align: center;
 
-    /* Visual */
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+	    /* Visual */
+	    background-color: #fff;
+	    border: 1px solid #ddd;
+	    border-radius: 5px;
 
-    /* Misc */
-    opacity: 1;
-}
+	    /* Misc */
+	    opacity: 1;
+	}
