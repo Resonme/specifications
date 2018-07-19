@@ -22,7 +22,7 @@ scss
 	}
 }
 
-<h4>3.js文件命名
+<h4>3.js文件命名</h4>
 小写方式 以下划线分隔 <br>
 sider_nav.js<br>
 类js文件首字母大写<br>
@@ -38,11 +38,13 @@ User.js<br>
 IE compatibility mode 最好是设置为 edge mode <meta http-equiv="X-UA-Compatible" content="IE=Edge"><br>
 字符编码 <meta charset="UTF-8"><br>
 引入 CSS 和 JavaScript <br>
+<code>
 <link rel="stylesheet" href="common.css">
 <style>
     /* ... */
 </style>
 <script src="code-guide.js"></script>
+</code>
 
 html属性顺序<br>
 class<br>
