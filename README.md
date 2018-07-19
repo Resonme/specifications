@@ -10,10 +10,10 @@ src common dist components data_modules
 <h4>2.CSS scss命名</h4>
 BEM规范 块block、元素element、修饰符modifier 使用 block__element--modifier连接<br>
 css <br>
-.block{} 
-.block__element{} 
-.block__element--modifier{}
-scss 
+.block{} <br>
+.block__element{} <br>
+.block__element--modifier{}<br>
+scss<br> 
 .block{
 	&__element{
 		&--modifier{
@@ -60,10 +60,10 @@ required, readonly, disabled<br>
 
 尽量减少标签数量 例如<br>
 <div class="head">
-    <img src="">
+    '<img src="">'
 </div>
 ==> 
-<img class="head" src="">
+'<img class="head" src="">'
 
 
 
@@ -94,7 +94,7 @@ Box model 盒模型 //display float width height margin padding<br>
 Typographic 排版 // font line-height text-align<br>
 Visual 外观 //color background-color border border-radius box-shadow<br>
 
-	/* Misc 
+/* Misc */
 .info-panel {
 
     /* Positioning */
@@ -124,4 +124,4 @@ Visual 外观 //color background-color border border-radius box-shadow<br>
 
     /* Misc */
     opacity: 1;
-}*/
+}
