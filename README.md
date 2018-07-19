@@ -1,4 +1,4 @@
-#项目命名
+# 项目命名
 
 小写方式， 以下划线分隔 
 big_data_analysis_platform 大数据分析平台
@@ -30,7 +30,7 @@ User.js
 
 【复数命名】 charts.js charts.css 
 
-#规范
+# 规范
 
 1.HTML
 页面开头使用这个简单地 doctype 来启用标准模式，使其每个浏览器中尽可能一致的展现 <!DOCTYPE html>
@@ -92,9 +92,13 @@ ul.tabellist{}
 
 相关的属性声明应该以下面的顺序分组处理
 Positioning //position top right bottom left z-index
+
 Box model 盒模型 //display float width height margin padding
+
 Typographic 排版 // font line-height text-align
+
 Visual 外观 //color background-color border border-radius box-shadow
+
 Misc //opcity
 .info-panel {
     /* Positioning */
