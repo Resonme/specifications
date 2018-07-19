@@ -95,7 +95,9 @@ Typographic 排版 // font line-height text-align<br>
 Visual 外观 //color background-color border border-radius box-shadow<br>
 
 /* Misc */
+
 .info-panel {
+
     /* Positioning */
     position: absolute;
     top: 0;
