@@ -3,7 +3,7 @@
 小写方式， 以下划线分隔 
 big_data_analysis_platform 大数据分析平台
 
-1.目录命名
+<b>1.目录命名</b>
 小写方式 以下划线分隔 
 src common dist components data_modules
 
