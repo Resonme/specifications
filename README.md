@@ -94,8 +94,7 @@ Box model 盒模型 //display float width height margin padding<br>
 Typographic 排版 // font line-height text-align<br>
 Visual 外观 //color background-color border border-radius box-shadow<br>
 
-/* Misc */
-
+	/* Misc */
 .info-panel {
 
     /* Positioning */
