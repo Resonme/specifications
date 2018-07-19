@@ -78,7 +78,7 @@ required, readonly, disabled<br>
 .btn{}
 .btn__icon{}
 
-	/*所有的十六进制值都应该使用小写字母 尽可能使用短的十六进制值如#fff替代#ffffff*/
+	所有的十六进制值都应该使用小写字母 尽可能使用短的十六进制值如#fff替代#ffffff
 .btn{
 	color: #fff;//#ffffff
 }
@@ -95,8 +95,8 @@ Typographic 排版 // font line-height text-align<br>
 Visual 外观 //color background-color border border-radius box-shadow<br>
 
  Misc //opcity<br>
-.info-panel {
-
+ 	/* 1 */
+	.info-panel {
     /* Positioning */
     position: absolute;
     top: 0;
