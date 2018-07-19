@@ -46,7 +46,9 @@ BEM规范 块block、元素element、修饰符modifier 使用 block__element--mo
 
 页面开头使用这个简单地 doctype 来启用标准模式，使其每个浏览器中尽可能一致的展现 <!DOCTYPE html><br>
 	
-在属性上，使用双引号  '<img src="head_img.png" alt="head_img">'<br>
+在属性上，使用双引号  <br>
+
+	<img src="head_img.png" alt="head_img">
 	
 IE compatibility mode 最好是设置为 edge mode <meta http-equiv="X-UA-Compatible" content="IE=Edge"><br>
 	
@@ -76,10 +78,10 @@ html属性顺序<br>
 尽量减少标签数量 例如<br>
 	
 	<div class="head">
-	    '<img src="">'
+	    <img src="">
 	</div>
 	==> 
-	'<img class="head" src="">'
+	<img class="head" src="">
 
 
 
