@@ -4,31 +4,34 @@
 big_data_analysis_platform 大数据分析平台
 
 <h4>1.目录命名</h4>
-小写方式 以下划线分隔 
-src common dist components data_modules
+
+	/*小写方式 以下划线分隔 */
+	src common dist components data_modules
 
 <h4>2.CSS scss命名</h4>
-BEM规范 块block、元素element、修饰符modifier 使用 block__element--modifier连接<br>
-css <br>
-.block{} <br>
-.block__element{} <br>
-.block__element--modifier{}<br>
-scss<br> 
-.block{
-	&__element{
-		&--modifier{
-			/**/
+
+	/*BEM规范 块block、元素element、修饰符modifier 使用 block__element--modifier连接<br>*/
+	css <br>
+	.block{} <br>
+	.block__element{} <br>
+	.block__element--modifier{}<br>
+	scss<br> 
+	.block{
+		&__element{
+			&--modifier{
+				/**/
+			}
 		}
 	}
-}
 
 <h4>3.js文件命名</h4>
-小写方式 以下划线分隔 <br>
-sider_nav.js<br>
-类js文件首字母大写<br>
-User.js<br>
 
-【复数命名】 charts.js charts.css <br>
+	/*小写方式 以下划线分隔 <br>*/
+	sider_nav.js<br>
+	类js文件首字母大写<br>
+	User.js<br>
+
+	【复数命名】 charts.js charts.css <br>
 
 # 规范
 
