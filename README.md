@@ -250,3 +250,6 @@ html属性顺序<br>
 	* setTitle()：设置title的值
 	*/
 	setTitle();
+	
+
+Vue 规范参考  https://cn.vuejs.org/v2/style-guide/
