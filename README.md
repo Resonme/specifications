@@ -40,9 +40,7 @@ BEM规范 块block、元素element、修饰符modifier 使用 block__element--mo
 
 	【复数命名】 charts.js charts.css
 
-# 规范
-
-<h4>1.HTML</h4>
+# HTML
 
 页面开头使用这个简单地 doctype 来启用标准模式，使其每个浏览器中尽可能一致的展现 <!DOCTYPE html><br>
 	
@@ -85,7 +83,7 @@ html属性顺序<br>
 
 
 
-<h4>2.css </h4>
+# css 样式
 
 使用组合选择器时，保持每个独立的选择器占用一行<br>
 
@@ -149,6 +147,81 @@ html属性顺序<br>
 	    /* Misc */
 	    opacity: 1;
 	}
+
+# js 函数
+
+<h4>避免全局命名空间污染</h4>
+	//不推荐
+	var x = 1,
+	    y = 1;
+
+	// Declaring variables in the global scope is resulting in global scope pollution. All variables declared like this
+	// will be stored in the window object. This is very unclean and needs to be avoided.
+	// We declare a IIFE and pass parameters into the function that we will use from the global space
+	
+	//推荐 IIFE
+	(function(log, w, undefined){
+	  'use strict';
+
+	  var x = 10,
+	      y = 100;
+
+	  // Will output 'true true'
+	  log((w.x === undefined) + ' ' + (w.y === undefined));
+
+	}(window.console.log, window));
+
+<h4>js声明提前 设置默认参数</h4> 
+
+	let a = null;
+	let b = a || ''; //默认参数
+	
+
+<h4>等同== 和严格等===的区别</h4> 
+
+	==， 两边值类型不同的时候，要先进行类型转换，再比较。
+	===，不做类型转换，类型不同的一定不等。
+	==等同操作符
+	如果两个值具有相同类型，会进行===比较，返回===的比较值 
+	如果两个值不具有相同类型，也有可能返回true 
+	如果一个值是null另一个值是undefined，返回true 
+	如果一个值是string另个是number，会把string转换成number再进行比较 
+	如果一个值是true，会把它转成1再比较，false会转成0 
+
+	console.log( false == null )      // false
+	console.log( false == undefined ) // false
+	console.log( false == 0 )         // true
+	console.log( false == '' )        // true
+	console.log( false == NaN )       // false
+
+	console.log( null == undefined ) // true
+	console.log( null == 0 )         // false
+	console.log( null == '' )        // false
+	console.log( null == NaN )       // false
+
+	console.log( undefined == 0)   // false
+	console.log( undefined == '')  // false
+	console.log( undefined == NaN) // false
+
+	console.log( 0 == '' )  // true
+	console.log( 0 == NaN ) // false
+	
+
+<h4>真假判断</h4> 
+	
+	js中以下内容为假：
+	false
+	null
+	undefined
+	0
+	'' (空字符串)
+	NaN
+	
+
+<h4>对象调用</h4>
+
+	map对象 判断是否为空 object && object.a
+	array数组对象 判断是否为空并且长度大于0 array && array.length > 0 && array.map(function(e){})
 
 
 # 注释
