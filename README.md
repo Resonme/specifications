@@ -252,4 +252,4 @@ html属性顺序<br>
 	setTitle();
 	
 
-Vue 规范参考  https://cn.vuejs.org/v2/style-guide/
+Vue 规范参考  https://v2.cn.vuejs.org/v2/style-guide/
